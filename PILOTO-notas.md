@@ -1,6 +1,7 @@
 # Coleta piloto (Fase 2): notas de 21/11/2026
 
-24 projetos gravados em `dados/projetos.json`: 14 "verificado" e 10 "a verificar".
+24 projetos gravados em `dados/projetos.json`: 13 "verificado" e 11 "a verificar".
+No site, os "a verificar" mostram o aviso "atividade recente não confirmada".
 
 - **Verificado:** contato conferido no canal oficial da entidade em 21/11/2026, com sinal
   de atividade recente (data de 2025 ou 2026 no site ou em notícia).
