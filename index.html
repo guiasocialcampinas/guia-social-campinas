@@ -3,15 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Guia Social Campinas</title>
-  <meta name="description" content="Guia de projetos sociais de Campinas e da Região Metropolitana: encontre onde ajudar com dinheiro, doações ou voluntariado.">
+  <title>Repositório de Projetos Sociais em Campinas e região</title>
+  <meta name="description" content="Lista de projetos sociais de Campinas e região para você conhecer e colaborar com dinheiro, doações ou voluntariado.">
   <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
   <header class="topo">
-    <div class="largura">
-      <h1>Guia Social Campinas</h1>
-      <p class="subtitulo">Projetos sociais de Campinas e região para você conhecer e ajudar.</p>
+    <div class="largura topo-conteudo">
+      <div class="topo-titulo">
+        <h1>Repositório de Projetos Sociais em Campinas e região</h1>
+        <p class="subtitulo">Lista de projetos sociais para você conhecer e colaborar.</p>
+      </div>
+      <p class="topo-sobre">
+        Uma iniciativa independente e sem fins lucrativos para divulgar os projetos sociais
+        da região, fortalecer o trabalho deles e incentivar a participação popular.
+      </p>
     </div>
   </header>
 
@@ -20,35 +26,70 @@
       <strong>Protótipo:</strong> os projetos abaixo são fictícios, só para mostrar como o site vai funcionar.
     </div>
 
-    <section class="busca" aria-label="Busca e filtros">
-      <label class="campo-texto">
-        <span class="rotulo">Buscar</span>
-        <input id="busca" type="search" placeholder="Nome, bairro, assunto..." autocomplete="off">
-      </label>
-      <div class="filtros">
-        <label><span class="rotulo">Área</span><select id="f-area"><option value="">Todas</option></select></label>
-        <label><span class="rotulo">Público</span><select id="f-publico"><option value="">Todos</option></select></label>
-        <label><span class="rotulo">Cidade</span><select id="f-cidade"><option value="">Todas</option></select></label>
-        <label><span class="rotulo">Como quer ajudar</span><select id="f-colaborar"><option value="">Qualquer uma</option></select></label>
-      </div>
-      <div class="linha-resultado">
-        <p id="contagem" aria-live="polite"></p>
-        <button id="limpar" type="button" class="botao-link" hidden>Limpar filtros</button>
-      </div>
-    </section>
+    <div class="colunas">
+      <aside class="busca" aria-label="Busca e filtros">
+        <h2 class="busca-titulo">Encontre um projeto</h2>
+        <label class="campo-texto">
+          <span class="rotulo">Buscar</span>
+          <input id="busca" type="search" placeholder="Nome, bairro, assunto..." autocomplete="off">
+        </label>
+        <div class="filtros">
+          <label><span class="rotulo">Área</span><select id="f-area"><option value="">Todas</option></select></label>
+          <label><span class="rotulo">Público</span><select id="f-publico"><option value="">Todos</option></select></label>
+          <label><span class="rotulo">Cidade</span><select id="f-cidade"><option value="">Todas</option></select></label>
+          <label><span class="rotulo">Como quer ajudar</span><select id="f-colaborar"><option value="">Qualquer uma</option></select></label>
+        </div>
+        <div class="linha-resultado">
+          <p id="contagem" aria-live="polite"></p>
+          <button id="limpar" type="button" class="botao-link" hidden>Limpar filtros</button>
+        </div>
+      </aside>
 
-    <section id="lista" class="lista" aria-label="Projetos"></section>
+      <section id="lista" class="lista" aria-label="Projetos"></section>
+    </div>
 
-    <section class="aviso aviso-info" id="sobre">
-      <h2>Antes de ajudar</h2>
-      <ul>
-        <li>As informações vêm de fontes públicas (sites das entidades, prefeituras, conselhos municipais) e podem estar desatualizadas. Cada projeto mostra a data da última conferência.</li>
-        <li>O guia só mostra o contato. Combine a ajuda direto com a entidade.</li>
-        <li>Este site não tem ligação com os projetos listados e não recebe doações.</li>
-      </ul>
-      <a id="botao-formulario" class="botao" href="#" target="_blank" rel="noopener">Reportar erro ou cadastrar projeto</a>
-      <p id="formulario-em-breve" class="nota" hidden>O formulário ainda está em preparação.</p>
-    </section>
+    <div class="rodape-blocos">
+      <section class="aviso aviso-info" id="sobre">
+        <h2>Antes de ajudar</h2>
+        <ul>
+          <li>As informações vêm de fontes públicas (sites das entidades, prefeituras, conselhos municipais) e podem estar desatualizadas. Cada projeto mostra a data da última conferência.</li>
+          <li>O site só mostra o contato. Combine a ajuda direto com a entidade.</li>
+          <li>Este site não tem ligação com os projetos listados e não recebe doações.</li>
+        </ul>
+      </section>
+
+      <section class="aviso aviso-info" id="contato">
+        <h2>Fale com a gente</h2>
+        <p class="nota-topo">Sugira um projeto, aponte uma informação errada ou mande sua mensagem.</p>
+        <form id="form-contato" novalidate>
+          <label>
+            <span class="rotulo">Assunto</span>
+            <select name="assunto" id="c-assunto">
+              <option>Sugerir um projeto</option>
+              <option>Corrigir uma informação</option>
+              <option>Outro assunto</option>
+            </select>
+          </label>
+          <label>
+            <span class="rotulo">Seu nome (opcional)</span>
+            <input name="nome" id="c-nome" type="text" autocomplete="name" maxlength="120">
+          </label>
+          <label>
+            <span class="rotulo">Seu e-mail, para resposta (opcional)</span>
+            <input name="email" id="c-email" type="email" autocomplete="email" maxlength="160">
+          </label>
+          <label>
+            <span class="rotulo">Mensagem</span>
+            <textarea name="mensagem" id="c-mensagem" rows="5" maxlength="4000" required></textarea>
+          </label>
+          <!-- Campo-armadilha contra robôs: pessoas não veem nem preenchem. -->
+          <input type="text" name="_gotcha" class="armadilha" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <p class="nota">Seus dados servem só para responder à mensagem. Não publicamos nem compartilhamos.</p>
+          <button type="submit" class="botao" id="c-enviar">Enviar mensagem</button>
+          <p id="c-status" class="status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </div>
   </main>
 
   <footer class="rodape">

@@ -50,8 +50,11 @@ voluntariado ou de outra forma), mas não sabe como nem quais projetos existem.
 - `dados/projetos.json`: os projetos. `dados/listas.json`: as listas oficiais da Fase 0.
 - `ferramentas/validar.py`: confere os dados (campos obrigatórios, listas, datas,
   contatos). O Claude roda depois de cada atualização.
-- No topo de `app.js`, `LINK_FORMULARIO` recebe o endereço do formulário
-  "reportar erro ou cadastrar projeto" quando ele existir.
+- Caixa "Fale com a gente" (sugerir projeto, corrigir informação, outro assunto): no
+  topo de `app.js`, `ENDERECO_MENSAGENS` recebe o endereço do serviço que entrega as
+  mensagens por e-mail (ex.: Formspree). Vazio = a caixa avisa que está em configuração
+  e não envia nada. Cada cartão tem o link "informação errada?", que abre a caixa já
+  preenchida com o nome do projeto.
 - `img/logos/`: logos das entidades (128x128 PNG), baixados do site oficial de cada uma
   e ligados pelo campo `logo`. Sem logo, o cartão mostra as iniciais num círculo
   colorido. Se uma entidade pedir, o logo é retirado.

@@ -1,9 +1,10 @@
 // Guia Social Campinas: busca e filtros dos projetos.
 // Os dados ficam em dados/projetos.json e as listas oficiais em dados/listas.json.
 
-// Endereço do formulário "reportar erro ou cadastrar projeto" (Google Forms ou similar).
-// Enquanto estiver vazio, o botão avisa que o formulário está em preparação.
-const LINK_FORMULARIO = "";
+// Endereço do serviço que recebe as mensagens da caixa "Fale com a gente" e as envia
+// por e-mail ao responsável (ex.: "https://formspree.io/f/xxxxxxx").
+// Enquanto estiver vazio, a caixa avisa que ainda está sendo configurada e não envia nada.
+const ENDERECO_MENSAGENS = "";
 
 // Verificação mais antiga que isso ganha destaque de "conferência antiga".
 const MESES_VERIFICACAO_ANTIGA = 6;
@@ -177,6 +178,13 @@ function montarCartao(p) {
     const fonte = linkContato("fonte", p.fonte);
     verificacao.appendChild(fonte);
   }
+  verificacao.appendChild(document.createTextNode(" · "));
+  const corrigir = document.createElement("button");
+  corrigir.type = "button";
+  corrigir.className = "botao-link";
+  corrigir.textContent = "informação errada?";
+  corrigir.addEventListener("click", () => abrirContato("Corrigir uma informação", `Projeto: ${p.nome}\n\n`));
+  verificacao.appendChild(corrigir);
   return no;
 }
 
@@ -228,21 +236,65 @@ function lerDoEndereco() {
   definir(el.colaborar, params.get("ajuda"));
 }
 
-function configurarFormulario() {
-  const botao = document.getElementById("botao-formulario");
-  if (LINK_FORMULARIO) {
-    botao.href = LINK_FORMULARIO;
-  } else {
-    botao.removeAttribute("target");
-    botao.addEventListener("click", (e) => {
-      e.preventDefault();
-      document.getElementById("formulario-em-breve").hidden = false;
-    });
-  }
+// Leva o visitante à caixa de mensagens já com o assunto (e, se houver, o texto inicial).
+function abrirContato(assunto, textoInicial) {
+  document.getElementById("c-assunto").value = assunto;
+  const mensagem = document.getElementById("c-mensagem");
+  if (textoInicial && !mensagem.value.trim()) mensagem.value = textoInicial;
+  document.getElementById("contato").scrollIntoView({ behavior: "smooth", block: "start" });
+  mensagem.focus({ preventScroll: true });
+  mensagem.setSelectionRange(mensagem.value.length, mensagem.value.length);
+}
+
+function configurarContato() {
+  const form = document.getElementById("form-contato");
+  const status = document.getElementById("c-status");
+  const botao = document.getElementById("c-enviar");
+  const avisar = (texto, tipo) => {
+    status.textContent = texto;
+    status.className = `status ${tipo || ""}`;
+  };
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const mensagem = form.mensagem.value.trim();
+    const email = form.email.value.trim();
+    if (!mensagem) {
+      avisar("Escreva sua mensagem antes de enviar.", "erro");
+      form.mensagem.focus();
+      return;
+    }
+    if (email && !form.email.checkValidity()) {
+      avisar("O e-mail parece incompleto. Confira ou deixe em branco.", "erro");
+      form.email.focus();
+      return;
+    }
+    if (!ENDERECO_MENSAGENS) {
+      avisar("A caixa de mensagens ainda está sendo configurada. Sua mensagem não foi enviada.", "erro");
+      return;
+    }
+    botao.disabled = true;
+    avisar("Enviando...");
+    try {
+      const resposta = await fetch(ENDERECO_MENSAGENS, {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" },
+      });
+      if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
+      form.reset();
+      avisar("Mensagem enviada. Obrigado pelo contato!", "ok");
+    } catch (erro) {
+      console.error(erro);
+      avisar("Não foi possível enviar agora. Tente de novo em alguns minutos.", "erro");
+    } finally {
+      botao.disabled = false;
+    }
+  });
 }
 
 async function iniciar() {
-  configurarFormulario();
+  configurarContato();
   try {
     const [respProjetos, respListas] = await Promise.all([
       fetch("dados/projetos.json", { cache: "no-cache" }),
