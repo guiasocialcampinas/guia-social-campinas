@@ -58,3 +58,9 @@ voluntariado ou de outra forma), mas não sabe como nem quais projetos existem.
 - `img/logos/`: logos das entidades (128x128 PNG), baixados do site oficial de cada uma
   e ligados pelo campo `logo`. Sem logo, o cartão mostra as iniciais num círculo
   colorido. Se uma entidade pedir, o logo é retirado.
+
+## Pendências
+
+- Ligar a caixa "Fale com a gente" ao Formspree (precisa de conta do usuário). Avisar o
+  usuário no início da próxima sessão.
+- Revisão dos 24 projetos do piloto pelo usuário.
