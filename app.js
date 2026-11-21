@@ -126,6 +126,12 @@ function montarCartao(p) {
     textoData.textContent += " (conferência antiga, confirme com a entidade)";
   }
   verificacao.appendChild(textoData);
+  if (p.situacao === "a verificar") {
+    const pendente = document.createElement("span");
+    pendente.className = "antigo";
+    pendente.textContent = " · atividade recente não confirmada";
+    verificacao.appendChild(pendente);
+  }
   if (p.fonte) {
     verificacao.appendChild(document.createTextNode(" · "));
     const fonte = linkContato("fonte", p.fonte);

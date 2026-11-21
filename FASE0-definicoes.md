@@ -59,6 +59,13 @@ Entra no guia o projeto que cumpre **todos** os itens:
   atualizado, registro em conselho municipal);
 - tem ao menos um canal de contato institucional.
 
+Prioridade na coleta (pedido do usuário em 21/11/2026):
+
+- projetos **consolidados** primeiro (anos de atuação, CNPJ, site próprio, presença
+  regular nas redes ou em conselhos municipais);
+- de preferência **sem conotação religiosa** (nome, missão e atividades laicos);
+- incluir **cozinhas solidárias**.
+
 Fica de fora:
 
 - órgãos e serviços públicos (CRAS, CAPS, escolas públicas), por ora;
