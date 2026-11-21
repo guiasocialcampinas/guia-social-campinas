@@ -18,7 +18,7 @@ DADOS = json.loads((RAIZ / "dados" / "projetos.json").read_text(encoding="utf-8"
 
 OBRIGATORIOS = ["id", "nome", "descricao", "areas", "publicos", "cidades", "fonte", "verificado_em", "situacao"]
 CONTATOS = ["site", "email", "telefone", "instagram", "facebook", "whatsapp"]
-CAMPOS_CONHECIDOS = set(OBRIGATORIOS + CONTATOS + ["bairro", "formas_de_colaborar"])
+CAMPOS_CONHECIDOS = set(OBRIGATORIOS + CONTATOS + ["bairro", "formas_de_colaborar", "logo"])
 LISTA_DO_CAMPO = {
     "areas": "areas",
     "publicos": "publicos",
@@ -68,6 +68,8 @@ for i, p in enumerate(DADOS.get("projetos", []), start=1):
     for campo in ("site", "instagram", "facebook", "fonte"):
         if p.get(campo) and not p[campo].startswith("https://"):
             avisos.append(f"{nome}: {campo} não começa com https://")
+    if p.get("logo") and not (RAIZ / p["logo"]).is_file():
+        erros.append(f"{nome}: arquivo do logo não encontrado ({p['logo']})")
     email = p.get("email", "")
     if email and email.lower().endswith(PROVEDORES_GRATUITOS):
         avisos.append(f"{nome}: e-mail em provedor gratuito ({email}); confirme que é da entidade, não de uma pessoa")

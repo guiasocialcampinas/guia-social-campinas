@@ -88,8 +88,48 @@ function linkContato(rotulo, href) {
   return a;
 }
 
+// Iniciais das duas primeiras palavras importantes do nome ("Fundo Haja!" vira "FH").
+function iniciais(nome) {
+  const ignorar = new Set(["de", "da", "do", "das", "dos", "e", "a", "o"]);
+  const palavras = nome.replace(/\(.*?\)/g, " ").split(/[\s\-–]+/)
+    .map((w) => w.replace(/[^\p{L}\p{N}]/gu, ""))
+    .filter((w) => w && !ignorar.has(w.toLowerCase()));
+  return palavras.slice(0, 2).map((w) => w[0].toUpperCase()).join("");
+}
+
+// Cor estável para cada projeto (a mesma a cada visita), escura o bastante para o texto branco.
+function corDoProjeto(id) {
+  let h = 0;
+  for (const c of id) h = (h * 31 + c.charCodeAt(0)) % 360;
+  return `hsl(${h} 45% 38%)`;
+}
+
+function mostrarIniciais(marca, p) {
+  marca.replaceChildren();
+  marca.className = "marca iniciais";
+  marca.style.background = corDoProjeto(p.id);
+  marca.textContent = iniciais(p.nome);
+}
+
+function montarMarca(marca, p) {
+  if (!p.logo) {
+    mostrarIniciais(marca, p);
+    return;
+  }
+  marca.className = "marca com-logo";
+  const img = document.createElement("img");
+  img.src = p.logo;
+  img.alt = "";
+  img.loading = "lazy";
+  img.width = 48;
+  img.height = 48;
+  img.addEventListener("error", () => mostrarIniciais(marca, p));
+  marca.appendChild(img);
+}
+
 function montarCartao(p) {
   const no = el.modelo.content.firstElementChild.cloneNode(true);
+  montarMarca(no.querySelector(".marca"), p);
   no.querySelector(".nome").textContent = p.nome;
   const cidades = p.cidades.join(", ");
   no.querySelector(".local").textContent = p.bairro ? `${p.bairro} · ${cidades}` : cidades;

@@ -52,3 +52,6 @@ voluntariado ou de outra forma), mas não sabe como nem quais projetos existem.
   contatos). O Claude roda depois de cada atualização.
 - No topo de `app.js`, `LINK_FORMULARIO` recebe o endereço do formulário
   "reportar erro ou cadastrar projeto" quando ele existir.
+- `img/logos/`: logos das entidades (128x128 PNG), baixados do site oficial de cada uma
+  e ligados pelo campo `logo`. Sem logo, o cartão mostra as iniciais num círculo
+  colorido. Se uma entidade pedir, o logo é retirado.

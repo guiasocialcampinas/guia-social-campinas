@@ -5,12 +5,23 @@
     {
       "id": "fundo-haja",
       "nome": "Fundo Haja!",
+      "logo": "img/logos/fundo-haja.png",
       "descricao": "Associação sem fins lucrativos que compra e restaura imóveis vazios no centro de Campinas, muitos de valor histórico, e os aluga a preço justo para pessoas de baixa renda (locação social).",
-      "areas": ["Moradia"],
-      "publicos": ["Famílias em vulnerabilidade", "Adolescentes e jovens"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Moradia"
+      ],
+      "publicos": [
+        "Famílias em vulnerabilidade",
+        "Adolescentes e jovens"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "bairro": "Centro",
-      "formas_de_colaborar": ["Doação em dinheiro", "Voluntariado"],
+      "formas_de_colaborar": [
+        "Doação em dinheiro",
+        "Voluntariado"
+      ],
       "site": "https://www.fundohaja.org/",
       "instagram": "https://www.instagram.com/fundohaja/",
       "fonte": "https://www.fundohaja.org/",
@@ -20,10 +31,20 @@
     {
       "id": "fundacao-feac",
       "nome": "Fundação FEAC",
+      "logo": "img/logos/fundacao-feac.png",
       "descricao": "Fundação com mais de 60 anos em Campinas que financia e apoia organizações sociais e projetos de assistência social e educação na cidade.",
-      "areas": ["Assistência social", "Educação"],
-      "publicos": ["Crianças", "Adolescentes e jovens", "Famílias em vulnerabilidade"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Assistência social",
+        "Educação"
+      ],
+      "publicos": [
+        "Crianças",
+        "Adolescentes e jovens",
+        "Famílias em vulnerabilidade"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "site": "https://feac.org.br/",
       "email": "comunicacao@feac.org.br",
       "telefone": "1937943500",
@@ -36,10 +57,19 @@
     {
       "id": "centro-boldrini",
       "nome": "Centro Infantil Boldrini",
+      "logo": "img/logos/centro-boldrini.png",
       "descricao": "Hospital filantrópico de referência no tratamento de câncer e doenças do sangue em crianças e adolescentes, com atendimento, ensino e pesquisa.",
-      "areas": ["Saúde"],
-      "publicos": ["Crianças", "Adolescentes e jovens", "Pessoas com doenças graves e familiares"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Saúde"
+      ],
+      "publicos": [
+        "Crianças",
+        "Adolescentes e jovens",
+        "Pessoas com doenças graves e familiares"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "site": "https://www.boldrini.org.br/",
       "telefone": "1937875000",
       "facebook": "https://www.facebook.com/centro.infantil.boldrini",
@@ -50,10 +80,18 @@
     {
       "id": "hospital-sobrapar",
       "nome": "Hospital Sobrapar - Crânio e Face",
+      "logo": "img/logos/hospital-sobrapar.png",
       "descricao": "Hospital filantrópico especializado em reabilitação de crânio e face, como fissura labiopalatina e sequelas de traumas no rosto.",
-      "areas": ["Saúde"],
-      "publicos": ["Pessoas com deficiência", "Crianças"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Saúde"
+      ],
+      "publicos": [
+        "Pessoas com deficiência",
+        "Crianças"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "site": "https://sobrapar.org.br/",
       "email": "sobrapar@sobrapar.org.br",
       "telefone": "1937499700",
@@ -66,11 +104,22 @@
     {
       "id": "apae-campinas",
       "nome": "APAE de Campinas",
+      "logo": "img/logos/apae-campinas.png",
       "descricao": "Associação de Pais e Amigos dos Excepcionais. Promove a inclusão de pessoas com deficiência, com atendimento especializado e apoio às famílias.",
-      "areas": ["Assistência social", "Educação"],
-      "publicos": ["Pessoas com deficiência"],
-      "cidades": ["Campinas"],
-      "formas_de_colaborar": ["Doação em dinheiro", "Voluntariado"],
+      "areas": [
+        "Assistência social",
+        "Educação"
+      ],
+      "publicos": [
+        "Pessoas com deficiência"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
+      "formas_de_colaborar": [
+        "Doação em dinheiro",
+        "Voluntariado"
+      ],
       "site": "https://www.apaecampinas.org.br/",
       "email": "contato@apaecampinas.org.br",
       "telefone": "1937721200",
@@ -83,10 +132,20 @@
     {
       "id": "progen",
       "nome": "Progen - Projeto Gente Nova",
+      "logo": "img/logos/progen.png",
       "descricao": "Organização da sociedade civil que trabalha com crianças, adolescentes e suas famílias para prevenir situações de risco social e violação de direitos.",
-      "areas": ["Assistência social", "Educação"],
-      "publicos": ["Crianças", "Adolescentes e jovens", "Famílias em vulnerabilidade"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Assistência social",
+        "Educação"
+      ],
+      "publicos": [
+        "Crianças",
+        "Adolescentes e jovens",
+        "Famílias em vulnerabilidade"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "site": "https://progen.org.br/",
       "telefone": "1932276188",
       "facebook": "https://www.facebook.com/ProjetoGenteNova/",
@@ -97,10 +156,18 @@
     {
       "id": "fundacao-sindrome-de-down",
       "nome": "Fundação Síndrome de Down",
+      "logo": "img/logos/fundacao-sindrome-de-down.png",
       "descricao": "Atende pessoas com síndrome de Down e suas famílias, com terapias de várias especialidades e apoio à entrada no mercado de trabalho.",
-      "areas": ["Saúde", "Trabalho e renda"],
-      "publicos": ["Pessoas com deficiência"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Saúde",
+        "Trabalho e renda"
+      ],
+      "publicos": [
+        "Pessoas com deficiência"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "site": "https://www.fsdown.org.br/",
       "email": "fsdown@fsdown.org.br",
       "telefone": "1937902818",
@@ -113,11 +180,22 @@
     {
       "id": "alianca-do-bem",
       "nome": "Aliança do Bem",
+      "logo": "img/logos/alianca-do-bem.png",
       "descricao": "ONG de proteção animal e meio ambiente. Resgata animais abandonados, faz castrações, encaminha para adoção responsável e promove educação ambiental.",
-      "areas": ["Proteção animal", "Meio ambiente"],
-      "publicos": ["Animais"],
-      "cidades": ["Campinas"],
-      "formas_de_colaborar": ["Doação em dinheiro", "Voluntariado"],
+      "areas": [
+        "Proteção animal",
+        "Meio ambiente"
+      ],
+      "publicos": [
+        "Animais"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
+      "formas_de_colaborar": [
+        "Doação em dinheiro",
+        "Voluntariado"
+      ],
       "site": "https://aliancadobem.org.br/",
       "email": "faleconosco@aliancadobem.org.br",
       "instagram": "https://www.instagram.com/aliancadobem.org.br/",
@@ -130,9 +208,17 @@
       "id": "adacamp",
       "nome": "Adacamp - Desenvolvimento dos Autistas em Campinas",
       "descricao": "Associação especializada em autismo. Atende crianças autistas e suas famílias com terapias especializadas, para mais autonomia e inclusão.",
-      "areas": ["Saúde", "Assistência social"],
-      "publicos": ["Pessoas com deficiência", "Crianças"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Saúde",
+        "Assistência social"
+      ],
+      "publicos": [
+        "Pessoas com deficiência",
+        "Crianças"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "telefone": "1932727889",
       "instagram": "https://www.instagram.com/adacamp.campinas/",
       "fonte": "https://www.instagram.com/adacamp.campinas/",
@@ -142,10 +228,19 @@
     {
       "id": "casa-da-crianca-paralitica",
       "nome": "Casa da Criança Paralítica de Campinas (CCP)",
+      "logo": "img/logos/casa-da-crianca-paralitica.png",
       "descricao": "Atende crianças e adolescentes com deficiência física em tratamento de reabilitação. Mantém um bazar beneficente.",
-      "areas": ["Saúde"],
-      "publicos": ["Crianças", "Adolescentes e jovens", "Pessoas com deficiência"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Saúde"
+      ],
+      "publicos": [
+        "Crianças",
+        "Adolescentes e jovens",
+        "Pessoas com deficiência"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "site": "https://www.ccp.org.br/web/",
       "telefone": "1921277230",
       "facebook": "https://www.facebook.com/casadacriancaparalitica",
@@ -156,11 +251,22 @@
     {
       "id": "cornelia-vlieg",
       "nome": "Associação Cornélia Vlieg",
+      "logo": "img/logos/cornelia-vlieg.png",
       "descricao": "Há mais de 30 anos em Campinas, promove inclusão social, geração de renda e garantia de direitos para pessoas em situação de vulnerabilidade, inclusive pessoas em situação de rua.",
-      "areas": ["Assistência social", "Trabalho e renda"],
-      "publicos": ["Pessoas em situação de rua", "Famílias em vulnerabilidade"],
-      "cidades": ["Campinas"],
-      "formas_de_colaborar": ["Doação em dinheiro"],
+      "areas": [
+        "Assistência social",
+        "Trabalho e renda"
+      ],
+      "publicos": [
+        "Pessoas em situação de rua",
+        "Famílias em vulnerabilidade"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
+      "formas_de_colaborar": [
+        "Doação em dinheiro"
+      ],
       "site": "https://corneliavlieg.org.br/",
       "email": "contato@corneliavlieg.org.br",
       "telefone": "1932519677",
@@ -171,10 +277,18 @@
     {
       "id": "patrulheiros-campinas",
       "nome": "Patrulheiros Campinas (CAMPC)",
+      "logo": "img/logos/patrulheiros-campinas.png",
       "descricao": "Prepara adolescentes e jovens para o mundo do trabalho, com oficinas de formação e programa de aprendizagem profissional (jovem aprendiz).",
-      "areas": ["Educação", "Trabalho e renda"],
-      "publicos": ["Adolescentes e jovens"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Educação",
+        "Trabalho e renda"
+      ],
+      "publicos": [
+        "Adolescentes e jovens"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "site": "https://www.patrulheiros.org.br/",
       "telefone": "1933033550",
       "instagram": "https://www.instagram.com/patrulheiros.campinas/",
@@ -187,10 +301,20 @@
       "id": "aldeias-infantis-campinas",
       "nome": "Aldeias Infantis SOS - Campinas",
       "descricao": "Acolhe crianças e adolescentes afastados da família em casas-lares espalhadas pela cidade, fortalece famílias e apoia jovens que saem do acolhimento.",
-      "areas": ["Assistência social"],
-      "publicos": ["Crianças", "Adolescentes e jovens", "Famílias em vulnerabilidade"],
-      "cidades": ["Campinas"],
-      "formas_de_colaborar": ["Doação em dinheiro"],
+      "areas": [
+        "Assistência social"
+      ],
+      "publicos": [
+        "Crianças",
+        "Adolescentes e jovens",
+        "Famílias em vulnerabilidade"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
+      "formas_de_colaborar": [
+        "Doação em dinheiro"
+      ],
       "site": "https://www.aldeiasinfantis.org.br/quem-somos/onde-estamos/no-brasil/campinas",
       "email": "campinas.sp@aldeiasinfantis.org.br",
       "telefone": "1933426992",
@@ -203,9 +327,18 @@
       "id": "casa-ronald-campinas",
       "nome": "Casa Ronald McDonald Campinas",
       "descricao": "Hospeda crianças e adolescentes em tratamento de câncer e seus acompanhantes que vêm de outras cidades.",
-      "areas": ["Saúde", "Assistência social"],
-      "publicos": ["Crianças", "Adolescentes e jovens", "Pessoas com doenças graves e familiares"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Saúde",
+        "Assistência social"
+      ],
+      "publicos": [
+        "Crianças",
+        "Adolescentes e jovens",
+        "Pessoas com doenças graves e familiares"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "bairro": "Bosque das Palmeiras",
       "telefone": "1932572082",
       "fonte": "https://institutoronald.org.br/redes/casa-ronald-mcdonald-campinas-associacao-de-pais-e-amigos-da-crianca-com-cancer-e-hemopatias/",
@@ -215,10 +348,18 @@
     {
       "id": "candido-ferreira",
       "nome": "Serviço de Saúde Dr. Cândido Ferreira",
+      "logo": "img/logos/candido-ferreira.png",
       "descricao": "Referência em saúde mental em Campinas há mais de 100 anos, com serviços gratuitos de acolhimento, tratamento e inclusão social, inclusive por oficinas de trabalho.",
-      "areas": ["Saúde", "Trabalho e renda"],
-      "publicos": ["Comunidade em geral"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Saúde",
+        "Trabalho e renda"
+      ],
+      "publicos": [
+        "Comunidade em geral"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "site": "https://candido.org.br/",
       "telefone": "1937588600",
       "instagram": "https://www.instagram.com/drcandidoferreira/",
@@ -230,10 +371,19 @@
     {
       "id": "casa-de-cultura-taina",
       "nome": "Casa de Cultura Tainã",
+      "logo": "img/logos/casa-de-cultura-taina.png",
       "descricao": "Casa de cultura fundada em 1989 na Vila Castelo Branco, com atividades de cultura afro-brasileira, música, tecnologia e comunicação comunitária (Rede Mocambos).",
-      "areas": ["Cultura", "Inclusão digital"],
-      "publicos": ["População negra", "Comunidade em geral"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Cultura",
+        "Inclusão digital"
+      ],
+      "publicos": [
+        "População negra",
+        "Comunidade em geral"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "bairro": "Vila Castelo Branco",
       "site": "https://taina.net.br/",
       "instagram": "https://www.instagram.com/casataina/",
@@ -246,9 +396,16 @@
       "id": "jongo-dito-ribeiro",
       "nome": "Comunidade Jongo Dito Ribeiro (Casa de Cultura Fazenda Roseira)",
       "descricao": "Grupo criado em 2002 que mantém viva a tradição do jongo e cuida da Casa de Cultura Fazenda Roseira, com festas abertas como o Arraial Afro Julino.",
-      "areas": ["Cultura"],
-      "publicos": ["População negra", "Comunidade em geral"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Cultura"
+      ],
+      "publicos": [
+        "População negra",
+        "Comunidade em geral"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "bairro": "Parque da Fazenda",
       "instagram": "https://www.instagram.com/casadeculturafazendaroseira/",
       "facebook": "https://www.facebook.com/jongoditoribeiro/",
@@ -260,9 +417,17 @@
       "id": "sos-acao-mulher-familia",
       "nome": "SOS Ação Mulher e Família",
       "descricao": "ONG de Campinas que oferece atendimento psicológico e social e orientação jurídica a mulheres e famílias, sobretudo em situação de violência.",
-      "areas": ["Direitos humanos e cidadania", "Assistência social"],
-      "publicos": ["Mulheres", "Famílias em vulnerabilidade"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Direitos humanos e cidadania",
+        "Assistência social"
+      ],
+      "publicos": [
+        "Mulheres",
+        "Famílias em vulnerabilidade"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "facebook": "https://www.facebook.com/sosacaomulherefamilia/",
       "fonte": "https://www.facebook.com/sosacaomulherefamilia/",
       "verificado_em": "2026-11-21",
@@ -272,9 +437,16 @@
       "id": "coalizao-trans-campinas",
       "nome": "Coalizão Trans de Campinas",
       "descricao": "Coletivo de pessoas trans que organiza ações de visibilidade, cultura e defesa de direitos da população trans em Campinas.",
-      "areas": ["Direitos humanos e cidadania", "Cultura"],
-      "publicos": ["Pessoas LGBTQIA+"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Direitos humanos e cidadania",
+        "Cultura"
+      ],
+      "publicos": [
+        "Pessoas LGBTQIA+"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "instagram": "https://www.instagram.com/coalizaotranscampinas/",
       "fonte": "https://www.instagram.com/coalizaotranscampinas/",
       "verificado_em": "2026-11-21",
@@ -284,10 +456,19 @@
       "id": "cidade-dos-meninos-campinas",
       "nome": "Cidade dos Meninos de Campinas",
       "descricao": "Atende crianças e adolescentes em situação de risco. Promove bazares e um café social para arrecadar recursos.",
-      "areas": ["Assistência social"],
-      "publicos": ["Crianças", "Adolescentes e jovens"],
-      "cidades": ["Campinas"],
-      "formas_de_colaborar": ["Doação em dinheiro"],
+      "areas": [
+        "Assistência social"
+      ],
+      "publicos": [
+        "Crianças",
+        "Adolescentes e jovens"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
+      "formas_de_colaborar": [
+        "Doação em dinheiro"
+      ],
       "instagram": "https://www.instagram.com/esperancasemlimites/",
       "fonte": "https://www.instagram.com/esperancasemlimites/",
       "verificado_em": "2026-11-21",
@@ -297,9 +478,16 @@
       "id": "acecamp",
       "nome": "Acecamp - Projetos Esportivos",
       "descricao": "ONG fundada em 2010 que oferece projetos esportivos para crianças e adolescentes.",
-      "areas": ["Esporte e lazer"],
-      "publicos": ["Crianças", "Adolescentes e jovens"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Esporte e lazer"
+      ],
+      "publicos": [
+        "Crianças",
+        "Adolescentes e jovens"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "instagram": "https://www.instagram.com/acecamp_projetos_esportivos/",
       "fonte": "https://www.instagram.com/acecamp_projetos_esportivos/",
       "verificado_em": "2026-11-21",
@@ -309,9 +497,15 @@
       "id": "associacao-campineira-judo",
       "nome": "Associação Campineira de Judô",
       "descricao": "Oferece aulas gratuitas de judô, com apoio de empresas parceiras.",
-      "areas": ["Esporte e lazer"],
-      "publicos": ["Comunidade em geral"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Esporte e lazer"
+      ],
+      "publicos": [
+        "Comunidade em geral"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "instagram": "https://www.instagram.com/judoacj/",
       "fonte": "https://www.instagram.com/judoacj/",
       "verificado_em": "2026-11-21",
@@ -321,9 +515,16 @@
       "id": "forum-socioambiental-campinas",
       "nome": "Fórum Socioambiental de Campinas",
       "descricao": "Fórum da sociedade civil que reúne movimentos e pessoas que defendem o meio ambiente em Campinas e acompanham as políticas ambientais da cidade.",
-      "areas": ["Meio ambiente", "Participação política"],
-      "publicos": ["Comunidade em geral"],
-      "cidades": ["Campinas"],
+      "areas": [
+        "Meio ambiente",
+        "Participação política"
+      ],
+      "publicos": [
+        "Comunidade em geral"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
       "instagram": "https://www.instagram.com/forumsocioambientalcampinas/",
       "fonte": "https://www.instagram.com/forumsocioambientalcampinas/",
       "verificado_em": "2026-11-21",
@@ -333,9 +534,15 @@
       "id": "flor-de-maio-hortolandia",
       "nome": "Coletivo de Educação Popular Flor de Maio",
       "descricao": "Coletivo criado em 2013 por estudantes da Unicamp que mantém um cursinho pré-vestibular popular e gratuito em Hortolândia.",
-      "areas": ["Educação"],
-      "publicos": ["Adolescentes e jovens"],
-      "cidades": ["Hortolândia"],
+      "areas": [
+        "Educação"
+      ],
+      "publicos": [
+        "Adolescentes e jovens"
+      ],
+      "cidades": [
+        "Hortolândia"
+      ],
       "facebook": "https://www.facebook.com/flordemaiohortolandia/",
       "fonte": "https://www.facebook.com/flordemaiohortolandia/",
       "verificado_em": "2026-11-21",
