@@ -1,0 +1,91 @@
+{
+  "exemplo": true,
+  "atualizado_em": "2026-11-21",
+  "projetos": [
+    {
+      "id": "exemplo-sopa-solidaria",
+      "nome": "Sopa Solidária (exemplo)",
+      "descricao": "Distribui refeições quentes três noites por semana no centro da cidade e encaminha pessoas para a rede de acolhimento.",
+      "areas": ["Alimentação", "Assistência social"],
+      "publicos": ["Pessoas em situação de rua"],
+      "cidades": ["Campinas"],
+      "bairro": "Centro",
+      "formas_de_colaborar": ["Voluntariado", "Doação de itens", "Doação em dinheiro"],
+      "site": "https://example.org",
+      "email": "contato@example.org",
+      "instagram": "https://example.org/instagram",
+      "fonte": "https://example.org",
+      "verificado_em": "2026-11-21",
+      "situacao": "verificado"
+    },
+    {
+      "id": "exemplo-reforco-escolar",
+      "nome": "Reforço Escolar no Bairro (exemplo)",
+      "descricao": "Aulas de reforço de português e matemática no contraturno escolar para crianças do ensino fundamental.",
+      "areas": ["Educação"],
+      "publicos": ["Crianças", "Adolescentes e jovens"],
+      "cidades": ["Hortolândia"],
+      "formas_de_colaborar": ["Voluntariado", "Doação de itens"],
+      "email": "contato@example.org",
+      "telefone": "1900000000",
+      "fonte": "https://example.org",
+      "verificado_em": "2026-10-30",
+      "situacao": "verificado"
+    },
+    {
+      "id": "exemplo-orquestra-jovem",
+      "nome": "Orquestra Jovem da Periferia (exemplo)",
+      "descricao": "Ensino gratuito de instrumentos de cordas e sopro, com apresentações abertas à comunidade.",
+      "areas": ["Cultura", "Educação"],
+      "publicos": ["Adolescentes e jovens"],
+      "cidades": ["Sumaré", "Nova Odessa"],
+      "formas_de_colaborar": ["Doação em dinheiro", "Doação de itens", "Divulgação"],
+      "site": "https://example.org",
+      "facebook": "https://example.org/facebook",
+      "fonte": "https://example.org",
+      "verificado_em": "2026-09-12",
+      "situacao": "verificado"
+    },
+    {
+      "id": "exemplo-lar-idosos",
+      "nome": "Lar de Convivência do Idoso (exemplo)",
+      "descricao": "Centro-dia com atividades físicas, oficinas e alimentação para idosos que passam o dia sozinhos.",
+      "areas": ["Assistência social", "Saúde"],
+      "publicos": ["Idosos"],
+      "cidades": ["Valinhos"],
+      "formas_de_colaborar": ["Voluntariado", "Doação em dinheiro"],
+      "site": "https://example.org",
+      "whatsapp": "1900000000",
+      "fonte": "https://example.org",
+      "verificado_em": "2026-11-05",
+      "situacao": "verificado"
+    },
+    {
+      "id": "exemplo-protetores-animais",
+      "nome": "Protetores de Animais da Região (exemplo)",
+      "descricao": "Resgate, castração e adoção responsável de cães e gatos abandonados.",
+      "areas": ["Proteção animal"],
+      "publicos": ["Animais"],
+      "cidades": ["Indaiatuba", "Itatiba"],
+      "formas_de_colaborar": ["Doação em dinheiro", "Doação de itens", "Voluntariado", "Divulgação"],
+      "instagram": "https://example.org/instagram",
+      "fonte": "https://example.org",
+      "verificado_em": "2026-06-20",
+      "situacao": "a verificar"
+    },
+    {
+      "id": "exemplo-mulheres-em-rede",
+      "nome": "Mulheres em Rede (exemplo)",
+      "descricao": "Oficinas de geração de renda e grupo de apoio para mulheres que saíram de situação de violência doméstica.",
+      "areas": ["Trabalho e renda", "Direitos humanos e cidadania"],
+      "publicos": ["Mulheres", "Famílias em vulnerabilidade"],
+      "cidades": ["Americana", "Santa Bárbara d'Oeste"],
+      "formas_de_colaborar": ["Voluntariado", "Divulgação"],
+      "site": "https://example.org",
+      "email": "contato@example.org",
+      "fonte": "https://example.org",
+      "verificado_em": "2026-11-18",
+      "situacao": "verificado"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "cidades": [
+    "Americana", "Artur Nogueira", "Campinas", "Cosmópolis", "Engenheiro Coelho",
+    "Holambra", "Hortolândia", "Indaiatuba", "Itatiba", "Jaguariúna", "Monte Mor",
+    "Morungaba", "Nova Odessa", "Paulínia", "Pedreira", "Santa Bárbara d'Oeste",
+    "Santo Antônio de Posse", "Sumaré", "Valinhos", "Vinhedo"
+  ],
+  "areas": [
+    "Assistência social", "Educação", "Cultura", "Esporte e lazer", "Saúde",
+    "Alimentação", "Moradia", "Trabalho e renda", "Direitos humanos e cidadania",
+    "Participação política", "Meio ambiente", "Proteção animal", "Inclusão digital"
+  ],
+  "publicos": [
+    "Crianças", "Adolescentes e jovens", "Idosos", "Mulheres",
+    "Pessoas em situação de rua", "Pessoas com deficiência",
+    "Famílias em vulnerabilidade", "Pessoas com doenças graves e familiares",
+    "Pessoas com dependência química", "Pessoas LGBTQIA+", "População negra",
+    "Povos indígenas", "Migrantes e refugiados", "Egressos do sistema prisional",
+    "Comunidade em geral", "Animais"
+  ],
+  "formas_de_colaborar": [
+    "Doação em dinheiro", "Doação de itens", "Voluntariado", "Divulgação"
+  ]
+}

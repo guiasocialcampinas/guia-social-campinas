@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guia Social Campinas</title>
+  <meta name="description" content="Guia de projetos sociais de Campinas e da Região Metropolitana: encontre onde ajudar com dinheiro, doações ou voluntariado.">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="largura">
+      <h1>Guia Social Campinas</h1>
+      <p class="subtitulo">Projetos sociais de Campinas e região para você conhecer e ajudar.</p>
+    </div>
+  </header>
+
+  <main class="largura">
+    <div id="aviso-exemplo" class="aviso aviso-exemplo" hidden>
+      <strong>Protótipo:</strong> os projetos abaixo são fictícios, só para mostrar como o site vai funcionar.
+    </div>
+
+    <section class="busca" aria-label="Busca e filtros">
+      <label class="campo-texto">
+        <span class="rotulo">Buscar</span>
+        <input id="busca" type="search" placeholder="Nome, bairro, assunto..." autocomplete="off">
+      </label>
+      <div class="filtros">
+        <label><span class="rotulo">Área</span><select id="f-area"><option value="">Todas</option></select></label>
+        <label><span class="rotulo">Público</span><select id="f-publico"><option value="">Todos</option></select></label>
+        <label><span class="rotulo">Cidade</span><select id="f-cidade"><option value="">Todas</option></select></label>
+        <label><span class="rotulo">Como quer ajudar</span><select id="f-colaborar"><option value="">Qualquer uma</option></select></label>
+      </div>
+      <div class="linha-resultado">
+        <p id="contagem" aria-live="polite"></p>
+        <button id="limpar" type="button" class="botao-link" hidden>Limpar filtros</button>
+      </div>
+    </section>
+
+    <section id="lista" class="lista" aria-label="Projetos"></section>
+
+    <section class="aviso aviso-info" id="sobre">
+      <h2>Antes de ajudar</h2>
+      <ul>
+        <li>As informações vêm de fontes públicas (sites das entidades, prefeituras, conselhos municipais) e podem estar desatualizadas. Cada projeto mostra a data da última conferência.</li>
+        <li>O guia só mostra o contato. Combine a ajuda direto com a entidade.</li>
+        <li>Este site não tem ligação com os projetos listados e não recebe doações.</li>
+      </ul>
+      <a id="botao-formulario" class="botao" href="#" target="_blank" rel="noopener">Reportar erro ou cadastrar projeto</a>
+      <p id="formulario-em-breve" class="nota" hidden>O formulário ainda está em preparação.</p>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="largura">
+      <p>Dados atualizados em <span id="data-atualizacao">-</span>. Só publicamos contatos institucionais.</p>
+    </div>
+  </footer>
+
+  <template id="modelo-cartao">
+    <article class="cartao">
+      <h3 class="nome"></h3>
+      <p class="local"></p>
+      <p class="descricao"></p>
+      <div class="etiquetas areas"></div>
+      <p class="linha-publico"><span class="rotulo-inline">Para:</span> <span class="publicos"></span></p>
+      <p class="linha-colaborar"><span class="rotulo-inline">Como ajudar:</span> <span class="colaborar"></span></p>
+      <div class="contatos"></div>
+      <p class="verificacao"></p>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
