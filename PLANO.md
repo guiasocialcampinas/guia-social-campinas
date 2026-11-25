@@ -41,7 +41,7 @@ voluntariado ou de outra forma), mas não sabe como nem quais projetos existem.
 | 1 | Protótipo do site | Pronto em 21/11/2026; o link do formulário fica para a publicação |
 | 2 | Coleta piloto de cerca de 30 projetos, com revisão do usuário | 24 projetos gravados em 21/11/2026 (ver `PILOTO-notas.md`); aguardando revisão do usuário |
 | 3 | Escala e rotina de verificação (talvez uma tarefa agendada periódica) | A fazer |
-| 4 | Publicação (inclui ligar o Formspree) | No ar desde 25/11/2026 pelo GitHub Pages; falta ligar o Formspree |
+| 4 | Publicação | No ar desde 25/11/2026 pelo GitHub Pages, com a caixa de mensagens ligada ao Formspree |
 | 5 | Evolução (aplicativo, intermediação etc.) | Fora do escopo por ora |
 
 ## Como o site está montado
@@ -59,8 +59,10 @@ voluntariado ou de outra forma), mas não sabe como nem quais projetos existem.
   contatos). O Claude roda depois de cada atualização.
 - Caixa "Fale com a gente" (sugerir projeto, corrigir informação, outro assunto): no
   topo de `app.js`, `ENDERECO_MENSAGENS` recebe o endereço do serviço que entrega as
-  mensagens por e-mail (ex.: Formspree). Vazio = a caixa avisa que está em configuração
-  e não envia nada. Cada cartão tem o link "informação errada?", que abre a caixa já
+  mensagens por e-mail. Desde 25/11/2026 é o formulário "Fale com a gente - Guia
+  Social" do Formspree (plano gratuito, 50 mensagens por mês), que entrega no e-mail
+  da conta do usuário; as mensagens também ficam no painel do Formspree. Vazio = a
+  caixa avisa que está em configuração e não envia nada. Cada cartão tem o link "informação errada?", que abre a caixa já
   preenchida com o nome do projeto.
 - `img/logos/`: logos das entidades (128x128 PNG), baixados do site oficial de cada uma
   e ligados pelo campo `logo`. Sem logo, o cartão mostra as iniciais num círculo
@@ -69,5 +71,3 @@ voluntariado ou de outra forma), mas não sabe como nem quais projetos existem.
 ## Pendências
 
 - Revisão dos 24 projetos do piloto pelo usuário.
-- Ligar a caixa "Fale com a gente" ao Formspree (precisa de conta do usuário) e testar.
-  O site está no ar desde 25/11/2026, então este lembrete já vale.
