@@ -38,10 +38,10 @@ voluntariado ou de outra forma), mas não sabe como nem quais projetos existem.
 | Fase | O que é | Situação |
 |---|---|---|
 | 0 | Definições: áreas, públicos, critério de inclusão, municípios da RMC, modelo do registro | Aprovada em 21/11/2026 (`FASE0-definicoes.md`) |
-| 1 | Protótipo do site | Pronto em 21/11/2026, com 6 projetos fictícios; falta o link do formulário |
+| 1 | Protótipo do site | Pronto em 21/11/2026; o link do formulário fica para a publicação |
 | 2 | Coleta piloto de cerca de 30 projetos, com revisão do usuário | 24 projetos gravados em 21/11/2026 (ver `PILOTO-notas.md`); aguardando revisão do usuário |
 | 3 | Escala e rotina de verificação (talvez uma tarefa agendada periódica) | A fazer |
-| 4 | Publicação | A fazer |
+| 4 | Publicação (inclui ligar o Formspree) | A fazer |
 | 5 | Evolução (aplicativo, intermediação etc.) | Fora do escopo por ora |
 
 ## Como o site está montado
@@ -61,6 +61,7 @@ voluntariado ou de outra forma), mas não sabe como nem quais projetos existem.
 
 ## Pendências
 
-- Ligar a caixa "Fale com a gente" ao Formspree (precisa de conta do usuário). Avisar o
-  usuário no início da próxima sessão.
 - Revisão dos 24 projetos do piloto pelo usuário.
+- Na publicação (fase 4), logo depois de o site estar no ar: ligar a caixa "Fale com a
+  gente" ao Formspree (precisa de conta do usuário) e testar. Decidido em 25/11/2026:
+  não lembrar antes disso.
