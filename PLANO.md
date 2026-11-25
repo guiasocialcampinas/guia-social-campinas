@@ -41,10 +41,17 @@ voluntariado ou de outra forma), mas não sabe como nem quais projetos existem.
 | 1 | Protótipo do site | Pronto em 21/11/2026; o link do formulário fica para a publicação |
 | 2 | Coleta piloto de cerca de 30 projetos, com revisão do usuário | 24 projetos gravados em 21/11/2026 (ver `PILOTO-notas.md`); aguardando revisão do usuário |
 | 3 | Escala e rotina de verificação (talvez uma tarefa agendada periódica) | A fazer |
-| 4 | Publicação (inclui ligar o Formspree) | A fazer |
+| 4 | Publicação (inclui ligar o Formspree) | No ar desde 25/11/2026 pelo GitHub Pages; falta ligar o Formspree |
 | 5 | Evolução (aplicativo, intermediação etc.) | Fora do escopo por ora |
 
 ## Como o site está montado
+
+- **Endereço:** https://guiasocialcampinas.github.io/guia-social-campinas/
+- **Publicação:** GitHub Pages, conta `guiasocialcampinas`, repositório público
+  `guiasocialcampinas/guia-social-campinas`, ramo `main`, pasta raiz. Toda alteração
+  enviada ao GitHub (`git push`) atualiza o site em cerca de um minuto. Atenção: o
+  repositório é público, então tudo o que está na pasta do projeto (inclusive este
+  plano e as notas do piloto) fica visível; a pasta `prints/` fica de fora.
 
 - `index.html`, `estilo.css` e `app.js`: a página, com busca e filtros.
 - `dados/projetos.json`: os projetos. `dados/listas.json`: as listas oficiais da Fase 0.
@@ -62,6 +69,5 @@ voluntariado ou de outra forma), mas não sabe como nem quais projetos existem.
 ## Pendências
 
 - Revisão dos 24 projetos do piloto pelo usuário.
-- Na publicação (fase 4), logo depois de o site estar no ar: ligar a caixa "Fale com a
-  gente" ao Formspree (precisa de conta do usuário) e testar. Decidido em 25/11/2026:
-  não lembrar antes disso.
+- Ligar a caixa "Fale com a gente" ao Formspree (precisa de conta do usuário) e testar.
+  O site está no ar desde 25/11/2026, então este lembrete já vale.
