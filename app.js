@@ -4,7 +4,7 @@
 // Endereço do serviço que recebe as mensagens da caixa "Fale com a gente" e as envia
 // por e-mail ao responsável (ex.: "https://formspree.io/f/xxxxxxx").
 // Enquanto estiver vazio, a caixa avisa que ainda está sendo configurada e não envia nada.
-const ENDERECO_MENSAGENS = "";
+const ENDERECO_MENSAGENS = "https://formspree.io/f/xoedrpno";
 
 // Verificação mais antiga que isso ganha destaque de "conferência antiga".
 const MESES_VERIFICACAO_ANTIGA = 6;
