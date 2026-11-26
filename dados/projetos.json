@@ -1,6 +1,6 @@
 {
   "exemplo": false,
-  "atualizado_em": "2026-11-21",
+  "atualizado_em": "2026-11-26",
   "projetos": [
     {
       "id": "fundo-haja",
@@ -547,6 +547,83 @@
       "fonte": "https://www.facebook.com/flordemaiohortolandia/",
       "verificado_em": "2026-11-21",
       "situacao": "a verificar"
+    },
+    {
+      "id": "lar-dos-velhinhos-campinas",
+      "nome": "Lar dos Velhinhos de Campinas",
+      "descricao": "Instituição sem fins lucrativos que há mais de 120 anos acolhe idosos em situação de vulnerabilidade social, com moradia, alimentação e cuidados de saúde. Mantém bazar e recebe voluntários.",
+      "areas": [
+        "Assistência social",
+        "Saúde"
+      ],
+      "publicos": [
+        "Idosos"
+      ],
+      "cidades": [
+        "Campinas"
+      ],
+      "bairro": "Vila Proost de Souza",
+      "formas_de_colaborar": [
+        "Doação em dinheiro",
+        "Doação de itens",
+        "Voluntariado"
+      ],
+      "site": "https://lvc.org.br/",
+      "email": "marketing@lvc.org.br",
+      "telefone": "1937434300",
+      "instagram": "https://www.instagram.com/lardosvelhinhoscps/",
+      "facebook": "https://www.facebook.com/lardosvelhinhospage/",
+      "fonte": "https://lvc.org.br/contato/",
+      "verificado_em": "2026-11-26",
+      "situacao": "verificado"
+    },
+    {
+      "id": "recanto-dos-velhinhos-valinhos",
+      "nome": "Recanto dos Velhinhos de Valinhos",
+      "descricao": "Instituição filantrópica fundada em 1973 que acolhe cerca de 50 idosos em situação de vulnerabilidade, com cuidados especializados, passeios e atividades. Conta com o apoio de voluntários.",
+      "areas": [
+        "Assistência social",
+        "Saúde"
+      ],
+      "publicos": [
+        "Idosos"
+      ],
+      "cidades": [
+        "Valinhos"
+      ],
+      "bairro": "Ortizes",
+      "formas_de_colaborar": [
+        "Doação em dinheiro",
+        "Voluntariado"
+      ],
+      "site": "https://recantodosvelhinhos.com.br/",
+      "email": "contato@recantodosvelhinhos.com.br",
+      "telefone": "1938298180",
+      "whatsapp": "1938298180",
+      "instagram": "https://www.instagram.com/recantodosvelhinhos/",
+      "fonte": "https://recantodosvelhinhos.com.br/",
+      "verificado_em": "2026-11-26",
+      "situacao": "verificado"
+    },
+    {
+      "id": "cecal-indaiatuba",
+      "nome": "CECAL - Centro de Convivência Amor Sem Limites",
+      "descricao": "Associação sem fins lucrativos fundada em 2007 que acolhe idosos em abrigo de curta e longa permanência. Também administra o Centro Dia José Theodoro Dias, em parceria com a Prefeitura de Indaiatuba.",
+      "areas": [
+        "Assistência social"
+      ],
+      "publicos": [
+        "Idosos"
+      ],
+      "cidades": [
+        "Indaiatuba"
+      ],
+      "email": "administrativo@cecalindaiatuba.org.br",
+      "telefone": "1939350098",
+      "facebook": "https://www.facebook.com/cecalindaiatuba",
+      "fonte": "https://www.indaiatuba.sp.gov.br/terceiro-setor/osc/perfil/8/",
+      "verificado_em": "2026-11-26",
+      "situacao": "verificado"
     }
   ]
 }

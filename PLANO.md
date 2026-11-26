@@ -39,7 +39,7 @@ voluntariado ou de outra forma), mas não sabe como nem quais projetos existem.
 |---|---|---|
 | 0 | Definições: áreas, públicos, critério de inclusão, municípios da RMC, modelo do registro | Aprovada em 21/11/2026 (`FASE0-definicoes.md`) |
 | 1 | Protótipo do site | Pronto em 21/11/2026; o link do formulário fica para a publicação |
-| 2 | Coleta piloto de cerca de 30 projetos, com revisão do usuário | 24 projetos gravados em 21/11/2026 (ver `PILOTO-notas.md`); aguardando revisão do usuário |
+| 2 | Coleta piloto de cerca de 30 projetos, com revisão do usuário | 24 projetos gravados em 21/11/2026 (ver `PILOTO-notas.md`); aguardando revisão do usuário. Em 26/11/2026 entraram mais 3, para idosos (só laicas, por decisão do usuário): 27 no total |
 | 3 | Escala e rotina de verificação (talvez uma tarefa agendada periódica) | A fazer |
 | 4 | Publicação | No ar desde 25/11/2026 pelo GitHub Pages, com a caixa de mensagens ligada ao Formspree |
 | 5 | Evolução (aplicativo, intermediação etc.) | Fora do escopo por ora |
